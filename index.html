@@ -10,47 +10,18 @@
 </head>
 
 <body>
-      <h1>Mousewheel controlled volume knob input</h1>
-
-      <div class="knob-surround">
-
-            <div class="knob"></div>
-
+      <h1>Click anywhere to begin playing audio first, then drag volume knob with mouse or finger to control volume</h1>
+      <p>Current volume: <span id="volumeValue" class="current-value">0%</span></p>
+          <div class="knob-surround">
+      
+            <div id="knob" class="knob"></div>
+      
             <span class="min">Min</span>
             <span class="max">Max</span>
-
-            <div class="ticks">
-                  <div class="tick activetick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-                  <div class="tick"></div>
-            </div>
-
-      </div>
+      
+            <div id="tickContainer" class="ticks"></div>
+      
+          </div>
       <script src="index.js"></script>
 </body>
 
